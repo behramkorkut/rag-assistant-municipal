@@ -1,0 +1,21 @@
+requirements_content = """# === RAG Pipeline - Assistant Municipal ===
+# Python 3.10+
+
+# Extraction documentaire
+docling>=2.80
+
+# Chunking
+langchain>=0.1
+langchain-text-splitters>=0.0.1
+
+# Embedding
+sentence-transformers>=2.2
+
+# Base vectorielle
+chromadb>=0.4
+
+# Appel API Mistral (via requests, pas de SDK)
+requests>=2.32
+
+# Utilitaires
+numpy>=1.24

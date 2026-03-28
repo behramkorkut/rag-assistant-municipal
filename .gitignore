@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environnement
+.env
+.venv/
+env/
+venv/
+
+# Clés API (IMPORTANT : ne jamais committer)
+*.key
+*.secret
+
+# Données volumineuses (le repo source sera cloné à l'exécution)
+8532116-mettez-en-place-un-rag-pour-un-llm/
+
+# ChromaDB (généré à l'exécution)
+chroma_db/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
